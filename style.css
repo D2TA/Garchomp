@@ -2,5 +2,14 @@ table {
   width: 100%;
   text-align: center;
   border: 1px solid;
+}
 
+
+.ContentFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentFlex > div {
+  flex: 50%;
 }
