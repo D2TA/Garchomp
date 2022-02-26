@@ -10,7 +10,7 @@ PortfolioLib.push(
 )
 
 PortfolioLib.push(
-  ['RandomColorSite','https://main.d2rukqrq01oxor.amplifyapp.com/','https://github.com/D2TA/RandomColorSite']
+  ['RandomColorSite','https://main.d2nhm8o6g9oxrs.amplifyapp.com/','https://github.com/D2TA/RandomColorSite']
 )
 
 
