@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 table {
   width: 100%;
   text-align: center;
@@ -7,8 +11,19 @@ table {
 .ContentFlex {
   display: flex;
   flex-direction: column;
+  algin-content: center;
+  flex-wrap: wrap;
 }
 
 .ContentFlex > div {
   flex: 50%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
 }
