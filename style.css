@@ -4,7 +4,6 @@ table {
   border: 1px solid;
 }
 
-
 .ContentFlex {
   display: flex;
   flex-direction: column;

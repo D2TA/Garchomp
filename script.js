@@ -13,9 +13,6 @@ PortfolioLib.push(
   ['RandomColorSite','https://main.d2nhm8o6g9oxrs.amplifyapp.com/','https://github.com/D2TA/RandomColorSite']
 )
 
-
-
-
 // Initalize Table Object
 var tableObj = document.getElementById("ContentTableObj");
 
@@ -32,7 +29,3 @@ for (var key in PortfolioLib) {
   ProductLink.innerHTML = "<a href='" + PortfolioLib[key][1] + "'>" + PortfolioLib[key][0] + "</a>";
   GitHubLink.innerHTML  = "<a href='" + PortfolioLib[key][2] + "'>" + 'Github Link' + "</a>";  
 }
-
-
-
-
