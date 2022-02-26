@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 table {
@@ -26,4 +27,8 @@ img {
   border-color: black;
   border-width: 5px;
   border-style: solid;
+}
+
+#linkDiv {
+  padding: 10px 10px;
 }

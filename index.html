@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width">
     <title>Portfolio Site - Basic</title>
     <link href="./style.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      
   </head>
   <body>
 
     <div class = "ContentFlex">
-      <div> <img src = "./445.png"></img> </div>
-      <div>
-        email | phone | linkedin 
+      <div id = "personalDiv"> 
+        <img src = "./445.png"></img> 
       </div>
-      <div>
+      <div id = "linkDiv">
+        <a id='email' href="#" onclick = "InformationAlert('email')">email</a>
+        |         
+        <a id='phone' href="#" onclick = "InformationAlert('phone')">phone</a>
+        |
+        <a href="linkedin.com/in/d2ta">linkedin</a> 
+      </div>
+      <div id = "contentDiv">
         <table id="ContentTableObj"></table>        
       </div>      
-
     <script src="./script.js"></script>      
   </body>
 </html>

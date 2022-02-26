@@ -29,3 +29,12 @@ for (var key in PortfolioLib) {
   ProductLink.innerHTML = "<a href='" + PortfolioLib[key][1] + "'>" + PortfolioLib[key][0] + "</a>";
   GitHubLink.innerHTML  = "<a href='" + PortfolioLib[key][2] + "'>" + 'Github Link' + "</a>";  
 }
+
+function InformationAlert(value) {
+  if (value == 'email') {
+    info = 'david.phong.ta@gmail.com'
+  } else {
+    info = '2066593769'
+  }
+  return alert(info)
+}
