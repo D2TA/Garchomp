@@ -13,6 +13,18 @@ PortfolioLib.push(
   ['RandomColorSite','https://main.d2nhm8o6g9oxrs.amplifyapp.com/','https://github.com/D2TA/RandomColorSite']
 )
 
+PortfolioLib.push(
+  ['StockBuyingSellingWeb','https://main.d2194jtrwcriim.amplifyapp.com/','https://github.com/D2TA/StockBuyingSellingWeb']
+)
+
+PortfolioLib.push(
+  ['Financial Literacy Project','https://main.d2x70lkghbuufx.amplifyapp.com/','https://github.com/D2TA/FinancialLiteracyProject']
+)
+
+
+
+
+
 // Initalize Table Object
 var tableObj = document.getElementById("ContentTableObj");
 
