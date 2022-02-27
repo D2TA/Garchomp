@@ -2,7 +2,12 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: xx-large;
+  color: white;
   padding: 250px;
+  background-image: url('IMG_20180401_152316.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 table {
@@ -13,10 +18,13 @@ table {
 }
 
 .ContentFlex {
+  padding: 10px 10px 10px 10px;
   display: flex;
   flex-direction: column;
   algin-content: center;
   flex-wrap: wrap;
+  background-color: black;
+  opacity: 0.9;
 }
 
 .ContentFlex > div {
