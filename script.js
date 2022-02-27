@@ -21,7 +21,9 @@ PortfolioLib.push(
   ['Financial Literacy Project','https://main.d2x70lkghbuufx.amplifyapp.com/','https://github.com/D2TA/FinancialLiteracyProject']
 )
 
-
+PortfolioLib.push(
+  ['FirstPersonClick','https://master.d3m2wqzw3i96qt.amplifyapp.com/','https://github.com/D2TA/FirstPersonClick']
+)
 
 
 
