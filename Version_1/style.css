@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: xx-large;
+  color: white;
+  padding: 250px;
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+table {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid;
+}
+
+.ContentFlex {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  algin-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.ContentFlex > div {
+  flex: 50%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+#linkDiv {
+  padding: 10px 10px;
+}

@@ -3,15 +3,172 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Portfolio Site - Basic</title>
-    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <title>D2TA</title>
+    <link href="./style.css"      rel="stylesheet" type="text/css" />    
+    <link href="./style-icon.css" rel="stylesheet" type="text/css" />    
+    <link href="./style-animate.css" rel="stylesheet" type="text/css" />    
+    
+    <!-- Documentation:    https://fonts.google.com/ -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Documentation:    https://animate.style/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
+    <!-- Documentation:    https://fonts.google.com/?selected=Material+Icons+Outlined -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <script type="text/javascript" src="./script.js"></script>
   </head>
   <body>
- 
-  <table id="ContentTableObj">
-  </table>
+    <div>
+      <div class = "TopNavBar">
+        <div class = "animate__animated animate__bounceInRight LeftTopNavBar">
+          <a href="./index.html">Home</a>
+          <a href="#Home">Work</a>      
+          <a href="./index-resume.html">Resume</a>                
+          <a href="#Home">Projects</a>      
+          <a href="#Home">Contact</a>        
+        </div>
+        <div class = "animate__animated animate__fadeIn MiddleTopNavBar"> 
+          <a href = "https://pokemondb.net/pokedex/garchomp">
+            <img id = "PortraitTopNavBar" src = "./445.png"></img>             
+          </a>
+        </div>
+        <div class = "animate__animated animate__bounceInLeft RightTopNavBar">
+    <!--         <a href="#Home">Youtube</a>
+          <a href="#Home">Instagram</a>       -->
+          <a href="https://github.com/D2TA">GitHub</a>        
+          <a href="https://www.linkedin.com/in/d2ta/">LinkedIn</a>        
+        </div>      
+      </div>      
+    </div>
 
-    
-    <script src="./script.js"></script>
+
+    <div class = "animate__animated animate__fadeIn">
+      <div class = "InfoBar">
+        <h1 class = "animate__animated animate__fadeIn" id = "NameChangeIn"  onclick = "onClickName1()">David Ta</h1>          
+        <h1 class = "animate__animated animate__fadeIn" id = "NameChangeOut" onclick = "onClickName2()">David Phong Quoc Ta</h1>                  
+        <span>Business Intelligence Engineer, Forecasting</span>
+        <span>Amazon.com, CS</span>
+        <span>Based in Seattle, WA</span>
+      </div>
+    </div>
+    <div class = "animate__animated animate__fadeIn">
+      <div class = "MainBar">
+        <div class = "animate__animated animate__fadeInUp InfoMainBar"> 
+          <div>
+            <span>Biography:</span>
+            <p>A young data & people centric professional, focused on developing business intelligence products/solutions.</p>
+            <p>He is a core team player with skilled knowledge of statistics, machine learning, data engineering and various programming languages.</p>
+            <p>From accelerating projects to developing the best talents, David prioritizes customers and team members. </p>
+            <i>"Where thoughts become reality"</i>
+          </div>
+          <div>
+            <span>Technical Skillsets:</span>
+            <ul class = "SkillsList">
+              <li>HTML/CSS</li>
+              <li>Information Architecture</li>
+              <li>Leadership</li>
+              <li>Machine Learning</li>
+              <li>Statistics</li>
+              <li>Tableau</li>
+              <li>QuickSight</li>
+              <li>AWS</li>
+              <li>Alteryx</li>
+              <li>Data Analysis</li>
+              <li>Data Modeling</li>
+              <li>Data Architecture</li>
+              <li>React</li>
+              <li>ETL</li>              
+              <li>Data Visualization</li>
+              <li>Web Development</li>
+              <li>Python</li>
+              <li>R</li>
+              <li>SAS</li>
+              <li>SQL</li>
+              <li>NoSQL</li>
+              <li>Jira</li>
+              <li>JavaScript</li>
+
+            </ul>
+          </div>
+          <div>
+            <span>Interests:</span>
+            <div class = "InterestBar">
+              <!-- https://thenounproject.com/icon/aeroplane-876033/ -->
+              <ap>
+                Travel
+                <img id = "InterestIcon" src="noun-aeroplane-876033.svg"></img>
+              </ap>
+              <!-- https://thenounproject.com/icon/coding-4671460/ -->
+              <ap>
+                Coding
+                <img id = "InterestIcon" src="noun-coding-4671460.svg"></img>              
+              </ap>
+              <!-- https://thenounproject.com/icon/technology-1706444/ -->
+              <ap>
+                Tech.
+                <img id = "InterestIcon" src="noun-technology-1706444.svg"></img>                        
+              </ap>
+              <!-- https://thenounproject.com/icon/bicycle-44319/ -->
+              <ap>
+                Cycling
+                <img id = "InterestIcon" src="noun-bicycle-44319.svg"></img>                           
+              </ap>
+              <!-- https://thenounproject.com/icon/boil-water-3639337/ -->
+              <ap>
+                Cooking
+                <img id = "InterestIcon" src="noun-boil-water-3639337.svg"></img>                      
+              </ap>
+              <!-- https://thenounproject.com/icon/mountains-1176150/ -->
+              <!-- https://thenounproject.com/icon/the-mountains-3292822/ -->
+              <ap>
+                Hiking
+                <img id = "InterestIcon" src="noun-mountains-1176150.svg"></img>              
+              </ap>
+            </div>
+          </div>
+        </div>
+        <div class = "PortraitMainBar">
+          <img class = "animate__animated animate__fadeIn" id = "PortraitImage" src="./IMG_20171011_082357.jpg"></img>          
+        </div>
+        <div class = "animate__animated animate__fadeInUp">          
+          <span>Projects:</span>
+          <div class = "ProjectMainBar"> 
+            <div class = "ColumnsProjectMainBar"> 
+              <div class = "RowsProjectMainBar"> 
+                <a href=""> Financial Literacy Project</a>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+              </div>
+              <div class = "RowsProjectMainBar"> 
+                <a href=""> Stock Buying Site</a>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+              </div>
+              <div class = "RowsProjectMainBar"> 
+                <a href=""> Random Color Site</a>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+              </div>
+            </div>
+            <div class = "ColumnsProjectMainBar"> 
+              <div class = "RowsProjectMainBar"> 
+                <a href=""> Speed Type</a>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+              </div>
+              <div class = "RowsProjectMainBar"> 
+                <a href=""> Random Color Site</a>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+              </div>
+              <div class = "RowsProjectMainBar"> 
+                <a href=""> ARAM Site</a>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+              </div>
+            </div>
+          </div>    
+        </div>
+      </div>
+    </div>
+      
+      
   </body>
 </html>
