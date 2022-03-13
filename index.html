@@ -4,33 +4,83 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Portfolio Site - Basic</title>
-    <link href="./style.css" rel="stylesheet" type="text/css" />
-    
+    <link href="./style.css" rel="stylesheet" type="text/css" />    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-      
+
+    <!-- Documentation:    https://animate.style/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
+
   </head>
   <body>
-
-    <div class = "ContentFlex">
-      <div id = "personalDiv"> 
-        <img src = "./445.png"></img> 
-      </div>
-      <div id = "name">
-        <a style="font-size: 100px">David Ta</a>
-      </div>
-
-      <div id = "linkDiv">
-        <a id='email' href="#" onclick = "InformationAlert('email')">email</a>
-        |         
-        <a id='phone' href="#" onclick = "InformationAlert('phone')">phone</a>
-        |
-        <a href="linkedin.com/in/d2ta">linkedin</a> 
-      </div>
-      <div id = "contentDiv">
-        <table id="ContentTableObj"></table>        
+    <div class = "animate__animated animate__bounceInLeft">
+      <div class = "TopNavBar">
+        <div class = "LeftTopNavBar">
+          <a href="#Home">Home</a>
+          <a href="#Home">Work</a>      
+          <a href="#Home">Contact</a>        
+        </div>
+        <div class = "MiddleTopNavBar"> 
+          <img class = "animate__animated animate__fadeIn" id = "PortraitTopNavBar" src = "./445.png"></img> 
+        </div>
+        <div class = "RightTopNavBar">
+    <!--         <a href="#Home">Youtube</a>
+          <a href="#Home">Instagram</a>       -->
+          <a href="#Home">GitHub</a>        
+          <a href="#Home">LinkedIn</a>        
+        </div>      
       </div>      
-    <script src="./script.js"></script>      
+    </div>
+
+
+    <div class = "animate__animated animate__fadeIn">
+      <div class = "InfoBar">
+        <h1 class = "animate__animated animate__fadeIn">David Ta</h1>          
+        <span>Business Intelligence Engineer</span>
+        <span>Amazon.com</span>
+        <span>Based in Seattle</span>                         
+      </div>
+    </div>
+    <div class = "animate__animated animate__fadeIn">
+      <div class = "MainBar">
+        <div class = "InfoMainBar"> 
+          <div>
+            <span>Biography:</span>
+            <p>I'm David Ta</p>
+            <p>"Where thoughts become reality"</p>
+          </div>
+          <div>
+            <span>Contact:</span>
+            <p>Seattle, WA</p>
+            <p>david.phong.ta@gmail.com</p>
+          </div>
+          <div>
+            <span>Technical Skillsets:</span>
+            <p>AWS, SQL, Tableau, Python, JavaScript, QuickSight, R, SAS, Data Pipelines</p>
+            <p>Web Development, Data Modeling, Data Visualization</p>            
+          </div>
+          <div>
+            <span>Interests:</span>
+            <div class = "InterestBar">
+              <img id = "InterestIcon" src="noun-aeroplane-876033.svg"></img>
+              <img id = "InterestIcon" src="noun-coding-4671460.svg"></img>              
+              <img id = "InterestIcon" src="noun-technology-1706444.svg"></img>           
+              <img id = "InterestIcon" src="noun-bicycle-44319.svg"></img>           
+              <img id = "InterestIcon" src="noun-boil-water-3639337.svg"></img>           
+              <img id = "InterestIcon" src="noun-mountains-1176150.svg"></img>                
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class = "animate__animated animate__fadeIn" id = "PortraitImage" src="./IMG_20171011_082357.jpg"></img>          
+        </div>
+        <div class = "ProjectMainBar"> 
+          Placeholder - Projects and Information
+        </div>      
+      </div>
+    </div>
+      
+      
   </body>
 </html>

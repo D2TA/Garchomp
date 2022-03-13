@@ -1,45 +1,127 @@
+html {
+  height: 100%;
+}
+
 body {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: xx-large;
-  color: white;
-  padding: 250px;
-  background-color: grey;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  font-family: 'Open Sans', sans-serif;  
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-table {
-  height: 500px;
-  width: 100%;
-  text-align: center;
-  border: 1px solid;
+a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
 }
 
-.ContentFlex {
-  padding: 10px 10px 10px 10px;
+span {
+  font-size: 40px;
+}
+
+h1 {
+  margin: 0;  
+}
+
+.TopNavBar {
   display: flex;
-  flex-direction: column;
-  algin-content: center;
-  flex-wrap: wrap;
-  background-color: black;
-  opacity: 0.9;
+  background-color: white;
+  margin-bottom: 5px;
 }
 
-.ContentFlex > div {
+.TopNavBar > div {
+  padding: 10px 10px 10px 10px;  
+  font-family: 'Open Sans', sans-serif;
   flex: 50%;
 }
 
-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  border-color: black;
-  border-width: 5px;
-  border-style: solid;
+.LeftTopNavBar {
+  display: flex;
+  flex-direction: row;  
 }
 
-#linkDiv {
-  padding: 10px 10px;
+.RightTopNavBar{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.RightTopNavBar > * , .LeftTopNavBar > * {
+  padding: 10px;
+  display: inline-block;
+  align-self: center;
+}
+
+.MiddleTopNavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InfoBar {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+#PortraitTopNavBar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px solid black;
+}
+
+.MainBar {
+  display: flex;
+  justify-content: center;
+/*   align-items: center; */
+  flex-direction: row;
+}
+
+.MainBar > * {
+  flex: 50%;
+}
+
+#PortraitImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 100px;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.InfoMainBar {
+  margin-left: 50px;
+}
+
+.ProjectMainBar {
+  
+}
+
+.InterestBar {
+  display: flex;
+  flex-direction: row;  
+}
+
+.InterestBar > * {
+  padding: 10px;
+  flex: 50%;
+  border: 1px solid black;
+}
+
+#InterestIcon {
+  width: 100px;
+  height: 100px;
 }
