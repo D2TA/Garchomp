@@ -106,10 +106,6 @@ h1 {
   margin-left: 50px;
 }
 
-.ProjectMainBar {
-  
-}
-
 .InterestBar {
   display: flex;
   flex-direction: row;  
@@ -124,4 +120,31 @@ h1 {
 #InterestIcon {
   width: 100px;
   height: 100px;
+}
+
+.ProjectMainBar {  
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.ColumnsProjectMainBar {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.ProjectMainBar > .ColumnsProjectMainBar , .ColumnsProjectMainBar > * {
+  flex: 50%;
+}
+
+.RowsProjectMainBar {
+}
+
+.RowsProjectMainBar > * {
+  font-size: 20px;
+}
+
+.RowsProjectMainBar > a {
+  font-weight: bold;  
 }
