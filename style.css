@@ -19,7 +19,11 @@ span {
   font-size: 40px;
 }
 
+<<<<<<< HEAD
 h1, h2, h3 {
+=======
+h1 {
+>>>>>>> c8b48317cdb21e18b8cf4a05de6c655d95ad63d8
   margin: 0;  
 }
 
@@ -165,6 +169,7 @@ h1, h2, h3 {
 ap {
   text-align: center;
 }
+<<<<<<< HEAD
  
 .SkillsList {
   list-style-type: none;
@@ -180,4 +185,13 @@ ap {
   cursor: pointer;
   background-color: rgb(230, 242, 255);
   border-radius: 5px;
+=======
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+>>>>>>> c8b48317cdb21e18b8cf4a05de6c655d95ad63d8
 }
